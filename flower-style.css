@@ -228,5 +228,78 @@
 #petal8 { animation: spin8 10s infinite linear; }
 #petal9 { animation: spin9 10s infinite linear; }
 
+/* .flower2 {
+    position: absolute;
+    top: 50%;  
+    left: 20%; 
+    transform: translate(-50%, -50%);
+}
+
+#circleCenter2 {
+    background: #B87333;
+    border-radius: 50%;
+    width: 260px;
+    height: 260px; 
+    position: absolute;
+    top: 51.3%;
+    left: 50%;  
+    transform: translate(-50%,-50%);
+}
+
+#petal11 {
+    position: absolute;
+    top: 40%; 
+    left: 50.1%;
+    transform: translate(-50%, -50%) rotate(40deg);
+}
+
+#petal12 {
+    position: absolute;
+    top: 40%; 
+    left: 50.1%;
+    transform: translate(-50%, -50%) rotate(81deg);
+}
+
+#petal13 {
+    position: absolute;
+    top: 40%; 
+    left: 50.1%;
+    transform: translate(-50%, -50%) rotate(121deg);
+}
+
+#petal14 {
+    position: absolute;
+    top: 40%; 
+    left: 50.1%;
+    transform: translate(-50%, -50%) rotate(161deg);
+}
+
+#petal15 {
+    position: absolute;
+    top: 40%; 
+    left: 50.1%;
+    transform: translate(-50%, -50%) rotate(201deg);
+}
+
+#petal16 {
+    position: absolute;
+    top: 40%; 
+    left: 50.1%;
+    transform: translate(-50%, -50%) rotate(241deg);
+}
+
+#petal17 {
+    position: absolute;
+    top: 40%; 
+    left: 50.1%;
+    transform: translate(-50%, -50%) rotate(281deg);
+}
+
+#petal18 {
+    position: absolute;
+    top: 40%; 
+    left: 50.1%;
+    transform: translate(-50%, -50%) rotate(321deg);
+} */
 
 
