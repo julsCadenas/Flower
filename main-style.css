@@ -4,26 +4,29 @@ body{
 }
 
 .title{
-    color: #7d2ae8;
-    font-family: cursive;
-    font-size: 80px;
-    font-weight: bolder;
-    text-align: center;
-    margin-top: 250px;
+    position:relative;
+    width: 1000px;
+    height: 500px; 
 }   
+
+.buttons-container {
+    margin-top: 200px;
+    text-align: center;
+    position: relative;
+}
 
 .buttons {
     position: relative;
-    background-color: #7d2ae8;
+    background-color: #303030;
     padding: 15px 30px;
-    color: yellow;
+    color: #D3D3D3;
     font-size: 70px;
     margin-right: 10px;
     border: none;
     border-radius: 10px;
     cursor: pointer;
     transition: transform 0.2s ease;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); */
 }
 
 .buttons:active{    
@@ -44,14 +47,14 @@ body{
 
 .buttons.animate::before{
     top: -70%;
-    background-image: radial-gradient(circle,#7d2ae8 20%,transparent 20%),
-    radial-gradient(circle,transparent 20%, #7d2ae8 20%,transparent 30%),
-    radial-gradient(circle, #7d2ae8 20%,transparent 20%),
+    background-image: radial-gradient(circle,#C88D94 20%,transparent 20%),
+    radial-gradient(circle,transparent 20%, #C88D94 20%,transparent 30%),
+    radial-gradient(circle, #C88D94 20%,transparent 20%),
     radial-gradient(circle,transparent 10%, #7d2ae8 15%,transparent 20%),
-    radial-gradient(circle, #7d2ae8 20%,transparent 20%),
-    radial-gradient(circle, #7d2ae8 20%,transparent 20%),
-    radial-gradient(circle, #7d2ae8 20%,transparent 20%),
-    radial-gradient(circle, #7d2ae8 20%,transparent 20%);
+    radial-gradient(circle, #C88D94 20%,transparent 20%),
+    radial-gradient(circle, #C88D94 20%,transparent 20%),
+    radial-gradient(circle, #C88D94 20%,transparent 20%),
+    radial-gradient(circle, #C88D94 20%,transparent 20%);
     background-size:10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,
     10% 10%, 18% 18%;
     background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 
@@ -73,13 +76,13 @@ body{
 
 .buttons.animate::after{
     bottom: -70%;
-    background-image: radial-gradient(circle,#7d2ae8 20%,transparent 20%),
-    radial-gradient(circle,transparent 10%, #7d2ae8 15%,transparent 20%),
-    radial-gradient(circle,#7d2ae8 20%,transparent 20%),
-    radial-gradient(circle,#7d2ae8 20%,transparent 20%),
-    radial-gradient(circle,#7d2ae8 20%,transparent 20%),
-    radial-gradient(circle,#7d2ae8 20%,transparent 20%),
-    radial-gradient(circle,#7d2ae8 20%,transparent 20%);
+    background-image: radial-gradient(circle,#C88D94 20%,transparent 20%),
+    radial-gradient(circle,transparent 10%, #C88D94 15%,transparent 20%),
+    radial-gradient(circle,#C88D94 20%,transparent 20%),
+    radial-gradient(circle,#C88D94 20%,transparent 20%),
+    radial-gradient(circle,#C88D94 20%,transparent 20%),
+    radial-gradient(circle,#C88D94 20%,transparent 20%),
+    radial-gradient(circle,#C88D94 20%,transparent 20%);
     background-size:15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 20% 20%, 18% 18%;
     background-position: 10% 0%, 30% 10%, 55% 0%, 70% 0%, 85% 0%, 70% 0%, 80% 0%;
     animation: botBubbles 0.6s ease-in-out forwards;
