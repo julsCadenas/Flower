@@ -126,4 +126,107 @@
     
 }
 
+@keyframes spin1 {
+    0% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+@keyframes spin2 {
+    0% {
+        transform: translate(-50%, -50%) rotate(40deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(400deg);
+    }
+}
+
+@keyframes spin3 {
+    0% {
+        transform: translate(-50%, -50%) rotate(80deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(440deg);
+    }
+}
+
+@keyframes spin4 {
+    0% {
+        transform: translate(-50%, -50%) rotate(120deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(480deg);
+    }
+}
+
+@keyframes spin5 {
+    0% {
+        transform: translate(-50%, -50%) rotate(160deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(520deg);
+    }
+}
+
+@keyframes spin6 {
+    0% {
+        transform: translate(-50%, -50%) rotate(200deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(560deg);
+    }
+}
+
+@keyframes spin7 {
+    0% {
+        transform: translate(-50%, -50%) rotate(240deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(600deg);
+    }
+}
+
+@keyframes spin8 {
+    0% {
+        transform: translate(-50%, -50%) rotate(280deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(640deg);
+    }
+}
+
+@keyframes spin9 {
+    0% {
+        transform: translate(-50%, -50%) rotate(320deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(680deg);
+    }
+}
+
+.petals {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform-origin: center bottom;
+}
+
+#petal1 { animation: spin1 10s infinite linear; }
+#petal2 { animation: spin2 10s infinite linear; }
+#petal3 { animation: spin3 10s infinite linear; }
+#petal4 { animation: spin4 10s infinite linear; }
+#petal5 { animation: spin5 10s infinite linear; }
+#petal6 { animation: spin6 10s infinite linear; }
+#petal7 { animation: spin7 10s infinite linear; }
+#petal8 { animation: spin8 10s infinite linear; }
+#petal9 { animation: spin9 10s infinite linear; }
+
+
 
